@@ -1,0 +1,27 @@
+{
+  "Metadata": {
+    "siteName": "أحمد توحيد",
+    "title": "أحمد توحيد | مصمم واجهات ومطور ويب",
+    "description": "معرض أعمال أحمد توحيد في مجال UI/UX وتطوير الويب باستخدام Next.js"
+  },
+  "HomePage": {
+    "title": "مرحباً بك!"
+  },
+  "Navbar": {
+    "home": "الرئيسية",
+    "projects": "المشاريع",
+    "about": "عني",
+    "contact": "تواصل معي"
+  },
+  "Hero": {
+  "availableForWork": "متاح للعمل الآن",
+  "greeting": "السلام عليكم!",
+  "welcomeMessage": "مرحباً بك في عالمي",
+  "introduceMe": "أنا أحمد توحيد",
+  "mySpecialty": "مصمم UI/UX",
+  "creativeDesigns": "أقدم تصميمات مبدعة",
+  "toolsImaster": "أدوات التصميم التي أتقنها",
+  "letTalk": "دعنا نتحدث",
+  "getQuoteOrHire": "احصل على عرض أسعار أو وظفني لمشروعك"
+}
+}

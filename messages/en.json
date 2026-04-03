@@ -1,0 +1,27 @@
+{
+  "Metadata": {
+    "siteName": "Ahmed Tawheed",
+    "title": "Ahmed Tawheed | UI/UX Designer & Web Developer",
+    "description": "Portfolio of Ahmed Tawheed specializing in UI/UX and Web Development with Next.js"
+  },
+  "HomePage": {
+    "title": "Welcome!"
+  },
+  "Navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Hero": {
+  "availableForWork": "Available for Work Now",
+  "greeting": "As-salamu alaykum!",
+  "welcomeMessage": "Welcome to my portfolio",
+  "introduceMe": "I'm Ahmed Tawheed",
+  "mySpecialty": "UI/UX Designer",
+  "creativeDesigns": "Crafting creative designs",
+  "toolsImaster": "Design tools I master",
+  "letTalk": "Let's Talk",
+  "getQuoteOrHire": "Get a quote or hire me for your project"
+}
+}
