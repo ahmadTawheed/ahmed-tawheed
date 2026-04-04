@@ -1,27 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  /* ربط الخط الإنجليزي بكلاس font-sans الافتراضي */
   --font-sans: var(--font-ibm-plex-sans), ui-sans-serif, system-ui;
-  
-  /* تعريف كلاس مخصص للخط العربي font-arabic */
   --font-arabic: var(--font-tajawal), sans-serif;
-
   --color-emerald-50: #f0fdf4;
-  --color-emerald-600: #059669; /* اللون الأساسي اللي طلبته */
-  --color-emerald-700: #047857; /* اللون الغامق للنصوص */
-  
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
 }
 
-/* تحسينات إضافية لمسة UI/UX */
 body {
-  /* تجعل الخطوط تبدو أنعم وأوضح */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* تحسين شكل الخط العربي في العناوين */
-[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 {
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3 {
   line-height: 1.4;
-  letter-spacing: 0; /* العربي مبيحبش الـ letter-spacing */
+  letter-spacing: 0;
 }

@@ -2,12 +2,17 @@ import { ReactNode } from "react";
 
 interface ContainerProps {
   children: ReactNode;
-  className?: string; // للسماح بإضافة كلاسات إضافية عند الحاجة
+  className?: string;
 }
 
-export default function Container({ children, className = "" }: ContainerProps) {
+export default function Container({
+  children,
+  className = "",
+}: ContainerProps) {
   return (
-    <div className={`max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full ${className}`}>
+    <div
+      className={`max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full ${className}`}
+    >
       {children}
     </div>
   );

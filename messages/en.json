@@ -39,47 +39,86 @@
     "hireMe": "Hire Me",
     "downloadCV": "Download CV"
   },
-"Works": {
-  "title": "My Work",
-  "subtitle": "Featured Projects",
-  "description": "Selected works that showcase my skills and passion for creating intuitive user experiences and aesthetic digital solutions.",
-  "viewProject": "Visit Project",
-  "projects": {
-    "p1": {
-      "title": "The Curated Frame",
-      "desc": "A minimalist e-commerce component study focusing on 'No-Line Philosophy'. It solves visual clutter by using tonal shifts and elevation to define product states (Normal, Hover, Disabled) ensuring a seamless shopping flow."
+  "Works": {
+    "title": "My Work",
+    "subtitle": "Featured Projects",
+    "description": "Selected works that showcase my skills and passion for creating intuitive user experiences and aesthetic digital solutions.",
+    "viewProject": "Visit Project",
+    "projects": {
+      "p1": {
+        "title": "The Curated Frame",
+        "desc": "A minimalist e-commerce component study focusing on 'No-Line Philosophy'. It solves visual clutter by using tonal shifts and elevation to define product states (Normal, Hover, Disabled) ensuring a seamless shopping flow."
+      },
+      "p2": {
+        "title": "PayFast Mobile Wallet",
+        "desc": "A fintech simulation addressing the complexity of digital payments. Designed a frictionless onboarding process including secure email verification and a streamlined dashboard for quick financial transactions."
+      },
+      "p3": {
+        "title": "School of Agriculture",
+        "desc": "An educational agricultural platform designed to bridge the gap between farmers and experts. Solves information accessibility through a curated article system and a scalable roadmap for expert consultations."
+      },
+      "p4": {
+        "title": "AgriCode Ecosystem",
+        "desc": "A multi-service Agritech platform solving the fragmentation of farming tools. Integrated AI diagnostics, IoT marketplace, and waste management into one cohesive UI, streamlining the farm-to-market journey."
+      },
+      "p5": {
+        "title": "KITAPY App",
+        "desc": "A modern bookstore experience designed for bibliophiles. Solves the 'search fatigue' problem with an advanced filtering system and a clean, typography-focused UI that enhances the browsing experience."
+      },
+      "p6": {
+        "title": "MediStream Dashboard",
+        "desc": "A comprehensive SAAS dashboard for clinics. It solves administrative overhead by visualizing patient queues, financial analytics, and debt tracking, allowing doctors to focus on healthcare over paperwork."
+      },
+      "p7": {
+        "title": "cleaner App",
+        "desc": "A service booking platform designed for the cleaning industry. It addresses the challenge of scheduling and service discovery by providing an intuitive interface for users to book, manage, and review cleaning services efficiently."
+      },
+      "p8": {
+        "title": "Mastering UI/UX Design",
+        "desc": "Embark on a professional journey into the world of UI/UX with interactive, free courses tailored specifically for both beginners and aspiring professionals."
+      }
     },
-    "p2": {
-      "title": "PayFast Mobile Wallet",
-      "desc": "A fintech simulation addressing the complexity of digital payments. Designed a frictionless onboarding process including secure email verification and a streamlined dashboard for quick financial transactions."
-    },
-    "p3": {
-      "title": "School of Agriculture",
-      "desc": "An educational agricultural platform designed to bridge the gap between farmers and experts. Solves information accessibility through a curated article system and a scalable roadmap for expert consultations."
-    },
-    "p4": {
-      "title": "AgriCode Ecosystem",
-      "desc": "A multi-service Agritech platform solving the fragmentation of farming tools. Integrated AI diagnostics, IoT marketplace, and waste management into one cohesive UI, streamlining the farm-to-market journey."
-    },
-    "p5": {
-      "title": "KITAPY App",
-      "desc": "A modern bookstore experience designed for bibliophiles. Solves the 'search fatigue' problem with an advanced filtering system and a clean, typography-focused UI that enhances the browsing experience."
-    },
-    "p6": {
-      "title": "MediStream Dashboard",
-      "desc": "A comprehensive SAAS dashboard for clinics. It solves administrative overhead by visualizing patient queues, financial analytics, and debt tracking, allowing doctors to focus on healthcare over paperwork."
-    },
-    "p7": {
-      "title": "cleaner App",
-      "desc": "A service booking platform designed for the cleaning industry. It addresses the challenge of scheduling and service discovery by providing an intuitive interface for users to book, manage, and review cleaning services efficiently."
+    "filters": {
+      "all": "All",
+      "dashboard": "Dashboards",
+      "mobile": "Mobile Apps",
+      "web": "Web Apps",
+      "frontend": "Frontend Development"
     }
   },
-  "filters": {
-    "all": "All",
-    "dashboard": "Dashboards",
-    "mobile": "Mobile Apps",
-    "web": "Web Apps",
-    "frontend": "Frontend Development"
+  "Contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's Work Together",
+    "description": "Have a project in mind or just want to say hi? Feel free to reach out. I'm always open to discussing new projects and creative ideas.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Project Type",
+      "message": "Tell me about your project...",
+      "send": "Send to WhatsApp"
+    },
+    "info": {
+      "location": "Mansoura, Egypt",
+      "available": "Available for Freelance"
     }
-}
+  },
+  "Footer": {
+    "description": "Crafting digital experiences that blend agricultural precision with modern design aesthetics. Specializing in UI/UX & Web Development.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "rights": "All rights reserved.",
+    "madeWith": "Designed & Built with",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "works": "Works",
+      "contact": "Contact"
+    }
+  },
+  "NotFound": {
+    "title": "404",
+    "heading": "Lost in Space?",
+    "description": "The page you are looking for doesn't exist or has been moved. Don't worry, even the best designers get lost sometimes.",
+    "backHome": "Back to Home"
+  }
 }

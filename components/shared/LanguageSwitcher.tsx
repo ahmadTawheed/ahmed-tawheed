@@ -12,7 +12,9 @@ export default function LanguageSwitcher() {
       locale={locale === "ar" ? "en" : "ar"}
       className="text-sm font-medium px-3 py-1.5 rounded-full border border-emerald-200 hover:bg-emerald-50 hover:text-emerald-700 transition-all duration-300 flex items-center gap-2"
     >
-      <span className="uppercase">{locale === "ar" ? "English" : "العربية"}</span>
+      <span className="uppercase">
+        {locale === "ar" ? "English" : "العربية"}
+      </span>
     </Link>
   );
 }

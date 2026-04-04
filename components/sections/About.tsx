@@ -4,8 +4,8 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import Container from "@/components/shared/Container";
 import Image from "next/image";
-import { FaDownload, FaPaperPlane } from "react-icons/fa"; // استيراد الأيقونات
-import photo from "@/public/photo.jpg"; // تأكد من مسار الصورة
+import { FaDownload, FaPaperPlane } from "react-icons/fa";
+import photo from "@/public/photo.jpg";
 
 export default function About() {
   const t = useTranslations("About");
@@ -15,15 +15,39 @@ export default function About() {
     { label: t("info.fullName"), value: "Ahmed Mohamed" },
     { label: t("info.birthday"), value: "April 4, 2004" },
     { label: t("info.job"), value: "UI/UX Designer" },
-    { label: t("info.website"), value: "ahmed-tawheed.vercel.app/en", isLink: true },
+    {
+      label: t("info.website"),
+      value: "ahmed-tawheed.vercel.app/en",
+      isLink: true,
+    },
     { label: t("info.email"), value: "ahmadtawheed74@gmail.com" },
   ];
 
-const skills = [
-    "User Research", "Wireframing", "Prototyping", "UI Design", 
-    "UX Strategy", "Figma", "Adobe Illustrator", "Adobe Photoshop", 
-    "Design Systems", "Next.js", "Tailwind CSS", "Responsive Design", "Accessibility", "Interaction Design", "Visual Design", "Information Architecture", "User Flows", "Usability Testing",
-    "web design", "git & github", "HTML", "CSS", "JavaScript", "React",
+  const skills = [
+    "User Research",
+    "Wireframing",
+    "Prototyping",
+    "UI Design",
+    "UX Strategy",
+    "Figma",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "Design Systems",
+    "Next.js",
+    "Tailwind CSS",
+    "Responsive Design",
+    "Accessibility",
+    "Interaction Design",
+    "Visual Design",
+    "Information Architecture",
+    "User Flows",
+    "Usability Testing",
+    "web design",
+    "git & github",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
   ];
 
   return (
@@ -31,7 +55,9 @@ const skills = [
       <Container>
         {/* Section Header */}
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className={`text-3xl md:text-5xl font-black text-slate-900 mb-4 ${locale === 'ar' ? 'font-arabic' : 'font-sans'}`}>
+          <h2
+            className={`text-3xl md:text-5xl font-black text-slate-900 mb-4 ${locale === "ar" ? "font-arabic" : "font-sans"}`}
+          >
             {t("title")}
             <span className="block h-1.5 w-20 bg-emerald-500 mx-auto mt-2 rounded-full"></span>
           </h2>
@@ -41,12 +67,11 @@ const skills = [
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
           {/* Left: Profile Image */}
           <div className="lg:col-span-5 relative group">
             <div className="relative z-10 rounded-3xl overflow-hidden border-8 border-slate-50 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
-              <Image 
-                src={photo} 
+              <Image
+                src={photo}
                 alt="Ahmed Tawheed"
                 width={500}
                 height={600}
@@ -59,15 +84,21 @@ const skills = [
           {/* Right: Content */}
           <div className="lg:col-span-7 flex flex-col gap-8">
             <div>
-              <h3 className={`text-2xl md:text-3xl font-bold text-slate-800 mb-6 leading-relaxed ${locale === 'ar' ? 'font-arabic' : 'font-sans'}`}>
+              <h3
+                className={`text-2xl md:text-3xl font-bold text-slate-800 mb-6 leading-relaxed ${locale === "ar" ? "font-arabic" : "font-sans"}`}
+              >
                 {t("description")}
               </h3>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 py-6 border-y border-slate-100">
                 {personalInfo.map((info, idx) => (
                   <div key={idx} className="flex gap-3 items-baseline">
-                    <span className="text-emerald-600 font-bold min-w-25 text-xs uppercase tracking-wider">{info.label}:</span>
-                    <span className={`text-slate-600 font-medium break-all text-sm ${info.isLink ? 'text-emerald-700 hover:underline' : ''}`}>
+                    <span className="text-emerald-600 font-bold min-w-25 text-xs uppercase tracking-wider">
+                      {info.label}:
+                    </span>
+                    <span
+                      className={`text-slate-600 font-medium break-all text-sm ${info.isLink ? "text-emerald-700 hover:underline" : ""}`}
+                    >
                       {info.value}
                     </span>
                   </div>
@@ -82,8 +113,8 @@ const skills = [
               </h4>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill, idx) => (
-                  <span 
-                    key={idx} 
+                  <span
+                    key={idx}
                     className="px-3 py-1.5 bg-slate-50 border border-slate-100 text-slate-700 rounded-lg text-xs font-bold transition-all hover:bg-emerald-500 hover:text-white"
                   >
                     {skill}
@@ -103,7 +134,7 @@ const skills = [
               </Link>
 
               <a
-                href="https://drive.google.com/file/d/1DQvGUqDVLYJhKkMwF9M1WY3wzWlnsGUL/view?usp=sharing" // تأكد من وضع ملف الـ PDF في مجلد public باسم resume.pdf
+                href="https://drive.google.com/file/d/1DQvGUqDVLYJhKkMwF9M1WY3wzWlnsGUL/view?usp=sharing"
                 download
                 className="flex items-center gap-2 px-8 py-4 bg-white border-2 border-slate-200 text-slate-700 rounded-2xl font-bold transition-all hover:border-emerald-500 hover:text-emerald-600 active:scale-95 shadow-sm"
               >
@@ -111,7 +142,6 @@ const skills = [
                 {t("downloadCV")}
               </a>
             </div>
-
           </div>
         </div>
       </Container>
