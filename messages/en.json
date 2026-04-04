@@ -14,14 +14,29 @@
     "contact": "Contact"
   },
   "Hero": {
-  "availableForWork": "Available for Work Now",
-  "greeting": "As-salamu alaykum!",
-  "welcomeMessage": "Welcome to my portfolio",
-  "introduceMe": "I'm Ahmed Tawheed",
-  "mySpecialty": "UI/UX Designer",
-  "creativeDesigns": "Crafting creative designs",
-  "toolsImaster": "Design tools I master",
-  "letTalk": "Let's Talk",
-  "getQuoteOrHire": "Get a quote or hire me for your project"
-}
+    "availableForWork": "Available for Work Now",
+    "greeting": "As-salamu alaykum!",
+    "welcomeMessage": "Welcome to my portfolio",
+    "introduceMe": "I'm Ahmed Tawheed",
+    "mySpecialty": "UI/UX Designer",
+    "creativeDesigns": "Crafting creative designs",
+    "toolsImaster": "Design tools I master",
+    "letTalk": "Let's Talk",
+    "getQuoteOrHire": "Get a quote or hire me for your project"
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "Let Me Introduce Myself",
+    "description": "I’m Ahmed Tawheed, a specialized UI/UX Designer with 3+ years of experience in crafting intuitive digital experiences. I bridge the gap between complex functionality and aesthetic elegance, focusing on user-centered design, wireframing, and interactive prototyping using Figma and Adobe Suite.",
+    "info": {
+      "fullName": "Full Name",
+      "birthday": "Birthday",
+      "job": "Job",
+      "website": "Website",
+      "email": "Email"
+    },
+    "skillsTitle": "Technical Expertise",
+    "hireMe": "Hire Me",
+    "downloadCV": "Download CV"
+  }
 }
