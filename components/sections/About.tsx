@@ -126,7 +126,7 @@ export default function About() {
             {/* NEW: Action Buttons (Hire Me & Download CV) */}
             <div className="flex flex-wrap gap-4 mt-4">
               <Link
-                href="/contact"
+                href="#contact"
                 className="flex items-center gap-2 px-8 py-4 bg-emerald-600 text-white rounded-2xl font-bold transition-all hover:bg-emerald-700 hover:shadow-lg hover:shadow-emerald-200 active:scale-95"
               >
                 <FaPaperPlane size={16} />
@@ -134,7 +134,7 @@ export default function About() {
               </Link>
 
               <a
-                href="https://drive.google.com/file/d/1DQvGUqDVLYJhKkMwF9M1WY3wzWlnsGUL/view?usp=sharing"
+                href="https://drive.google.com/file/d/1kZXkT8F0gjUW9S8dyHee9K-WVQK87eMS/view?usp=sharing"
                 download
                 className="flex items-center gap-2 px-8 py-4 bg-white border-2 border-slate-200 text-slate-700 rounded-2xl font-bold transition-all hover:border-emerald-500 hover:text-emerald-600 active:scale-95 shadow-sm"
               >
