@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: t('description'),
     icons: {
-      icon: '/favicon.ico', // تأكد من وجود الملف في مجلد [locale] أو public
+      icon: '/photo.jpg', // تأكد من وجود الملف في مجلد [locale] أو public
     },
   };
 }

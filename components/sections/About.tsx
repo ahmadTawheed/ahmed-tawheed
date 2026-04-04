@@ -22,7 +22,8 @@ export default function About() {
 const skills = [
     "User Research", "Wireframing", "Prototyping", "UI Design", 
     "UX Strategy", "Figma", "Adobe Illustrator", "Adobe Photoshop", 
-    "Design Systems", "Next.js", "Tailwind CSS", "Responsive Design"
+    "Design Systems", "Next.js", "Tailwind CSS", "Responsive Design", "Accessibility", "Interaction Design", "Visual Design", "Information Architecture", "User Flows", "Usability Testing",
+    "web design", "git & github", "HTML", "CSS", "JavaScript", "React",
   ];
 
   return (
