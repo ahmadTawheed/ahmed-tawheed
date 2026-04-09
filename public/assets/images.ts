@@ -3,6 +3,8 @@ export const images: { [key: string]: string } = {
   web_2: "/assets/web_2.webp",
   web_3: "/assets/web_3.webp",
   web_4: "/assets/web_4.webp",
+  web_5: "/assets/web_5.webp",
+  web_6: "/assets/web_6.webp",
   app_1: "/assets/app_1.webp",
   app_2: "/assets/app_2.webp",
   app_3: "/assets/app_3.webp",

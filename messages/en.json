@@ -44,6 +44,10 @@
     "subtitle": "Featured Projects",
     "description": "Selected works that showcase my skills and passion for creating intuitive user experiences and aesthetic digital solutions.",
     "viewProject": "Visit Project",
+    "viewVideo": "Watch Demo Video",
+    "noLink": "Project link currently unavailable",
+    "noVideo": "No video available for this project",
+    "comingSoon": "Will be added soon, Insha'Allah",
     "projects": {
       "p1": {
         "title": "The Curated Frame",
@@ -76,6 +80,14 @@
       "p8": {
         "title": "Mastering UI/UX Design",
         "desc": "Embark on a professional journey into the world of UI/UX with interactive, free courses tailored specifically for both beginners and aspiring professionals."
+      },
+      "p9": {
+        "title": "AgriCV",
+        "desc": "A specialized platform designed to help agriculture students and graduates create professional CVs that are ATS-compliant."
+      },
+      "p10": {
+        "title": "Math E-Learning Platform",
+        "desc": "A comprehensive interactive platform for math education, featuring a smart exam system, dynamic honor roll, and grade-specific content tailoring."
       }
     },
     "filters": {
