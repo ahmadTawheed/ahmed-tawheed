@@ -33,12 +33,13 @@ export const projectsData: Project[] = [
   },
   {
     id: 4,
-    category: "web",
+    category: "frontend",
     titleKey: "projects.p4.title",
     descKey: "projects.p4.desc",
     image: images.web_3,
     tools: ["Figma", "Next.js", "AI Integration", "IoT UI"],
     link: "https://www.behance.net/gallery/233614409/AgriCode",
+    videoLink : "https://agri-code-app.vercel.app"
   },
   {
     id: 5,
@@ -94,5 +95,33 @@ export const projectsData: Project[] = [
     image: images.web_6,
     tools: ["React.js", "Farmer Motion", "Interactive UI", "Educational Platform", "Vite"],
     videoLink: "https://www.linkedin.com/posts/ahmed-tawheed-165335252_reactjs-frontenddeveloper-webdevelopment-activity-7365627390376456194-V0HG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5XWZ0BKF6-mnI-LDG7PX5XVBFDf7ww_oE",
+  },
+  // new projects 2
+  {
+    id: 11,
+    category: "frontend",
+    titleKey: "projects.p11.title",
+    descKey: "projects.p11.desc",
+    image: images.web_7,
+    tools: ["Next.js", "Farmer Motion", "Interactive UI", "Marketplace", "Online Store"],
+    link : "https://rizokit.vercel.app"
+  },
+  {
+    id: 12,
+    category: "frontend",
+    titleKey: "projects.p12.title",
+    descKey: "projects.p12.desc",
+    image: images.web_8,
+    tools: ["Next.js", "Farmer Motion", "Interactive UI", "Community","Agriculture"],
+    link : "https://fe-rizotech-community.vercel.app"
+  },
+  {
+    id: 13,
+    category: "frontend",
+    titleKey: "projects.p13.title",
+    descKey: "projects.p13.desc",
+    image: images.web_9,
+    tools: ["Next.js", "Farmer Motion", "Community","Agriculture", "AI Integration", "Social Features"],
+    link : "https://agriculture-community-alpha.vercel.app"
   },
 ];

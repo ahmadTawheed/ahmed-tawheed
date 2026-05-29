@@ -88,6 +88,18 @@
       "p10": {
         "title": "Math E-Learning Platform",
         "desc": "A comprehensive interactive platform for math education, featuring a smart exam system, dynamic honor roll, and grade-specific content tailoring."
+      },
+      "p11": {
+        "title": "RizoKit",
+        "desc": "Grow your dreams at home with RizoKit—everything you need delivered right to your doorstep. Seeds, soil, fertilizer, and step-by-step guidance via QR Code."
+      },
+      "p12": {
+        "title": "RizoTech Community",
+        "desc": "Your trusted agricultural community with verified content written by experts and academics, not just automated answers. Ask your question and get real solutions from specialists."
+      },
+      "p13": {
+        "title": "Agricultural Community",
+        "desc": "An integrated platform bringing together students, engineers, and hobbyists. Search for plant diseases, pesticides, and fertilization methods with reliable information from top professors and specialists."
       }
     },
     "filters": {
